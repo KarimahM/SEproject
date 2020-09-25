@@ -1,0 +1,44 @@
+body{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+background-color: white;
+margin-left:18%; 
+margin-right: 18%;
+}
+
+header{background: #006; 
+font-size: 14px;
+border-radius: 10%;
+text-align: right;
+}
+
+/* nav{text-align: right;} */
+.navigate{color:white;
+}
+.socialmedia{font-style: oblique;
+text-decoration: blue;
+}
+a{cursor: pointer;
+}
+a:hover{color: red;}
+
+/* a:visited{color:blue;} */
+
+a:active{color: royalblue;}
+h1{color:blue;
+text-decoration: underline;
+}
+h2{color: green;
+text-decoration: dotted
+}
+main{;
+}
+html{font-size: 16px; 
+background-image:url(../Screenshot/whitecar.png);
+}
+ul{list-style-type: circle;}
+img{height: 100px; 
+width:100px;}
+
+/* #maindisplay{height: 100px; 
+width: 100px;} */
+section{display: block;}
