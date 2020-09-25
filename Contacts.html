@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../style/projectlinks.css" rel="stylesheet">
+    <link href="css/projectlinks.css" rel="stylesheet">
     <title>Contacts</title>
 </head>
 <body>
+    <!-- navigation start-->
     <header>
         <nav>    
          <a href="Home.html" class="navigate" >Home</a> 
@@ -15,29 +16,90 @@
          <a href="Media.html" class="navigate" >Media</a>
         </nav>
     </header> 
+    <!-- navigation end-->
+
+    <!-- main content start -->
     <Main>
-    <h1>Contact me</h1>
-    <dl>
-    Twitter:
-   <dd class="socialmedia"><a href="https://twitter.com/" target="_blank">@Oceanmax92</a></dd>
-    Facebook:<br>
-    <dd class="socialmedia" ><a href="https://web.facebook.com/" target="_blank" >@m.me/maxwell.karimah</a></dd>
-    Instagram:<br>
-    <dd class="socialmedia" ><a href="https://www.instagram.com" target="_blank">@Maxwellkofori</a></dd>
-    </dl>
-    You can contact me via<a href="Mailto:Maxwellkarimah@yahoo.com"> Email</a>
-    <form>
-    <fieldset>
-        <legend>Leave a message</legend>
-        <label for="FN">Name</label>
-        <input type="text" id="FN" name="FullName"><br>
-<label for="LA">Email</label>
-<input type="text" id="LA" name="Email"><br>
-<br>
-<textarea rows="8" cols="100" name="Message" placeholder="Your Message:"></textarea>
-<input type="submit">
-    </fieldset>
-    </form>
-</Main>
+        <h1>Contact me</h1>
+            <dl>
+                Twitter:
+                <dd class="socialmedia"><a href="https://twitter.com/" target="_blank">@Oceanmax92</a></dd>
+
+                Facebook:<br>
+                <dd class="socialmedia" ><a href="https://web.facebook.com/" target="_blank" >@m.me/maxwell.karimah</a></dd>
+
+                Instagram:<br>
+                <dd class="socialmedia" ><a href="https://www.instagram.com" target="_blank">@Maxwellkofori</a></dd>
+            </dl>
+
+        You can contact me via<a href="Mailto:Maxwellkarimah@yahoo.com"> Email</a>
+        <form name="myform">
+            <fieldset>
+                <legend>Leave a message</legend>
+                <label for="FN">Name</label>
+                    <input type="text" id="FN" name="fname"><br>
+                <label for="LA">Email</label>
+                    <input type="text" id="mail" name="email"><br>
+                <br>
+                <textarea rows="8" cols="100" name="Message" placeholder="Your Message:"></textarea>
+                <input id="subbtn" type="submit" >
+            </fieldset>
+        </form>
+    </Main>
+    <!-- main content end -->
+
+    <!-- footer start -->
+    <div>
+        <div >
+             <h3>Signup my Newsletter</h3>
+        </div>
+        <div>
+
+            <form action=Mailto"maxwellkarimah@yahoo.com">
+                <div>
+                <input type="email" placeholder="Write E-Mail Address" required>
+                <span>
+                <button type="submit">Go!</button>
+                 </span> </div>
+            </form>
+        </div>               
+
+        <hr>
+            <div class="footer" >
+                <div>
+                    <p>John 3:16 - For God so loved the world, that he gave his only begotten Son,that whosoever believeth in him should not perish, but have everlasting life.</p>
+                </div>
+
+                <div>
+                    <ul class="footer-pages">
+                        <li ><a class="pages" href="home.html">Home</a></li>
+                        <li><a class="pages" href="About.html">About me</a></li>
+                        <li><a class="pages" href="Contacts.html">Contact me</a></li>
+                        <li><a class="pages" href="media.html">Media</a></li>
+                    </ul>
+                </div>
+                <br>
+
+                <div>
+                    <!-- widget footer -->
+                    <ul class="footer-socialmedia" >
+                        <li><a class="socialmedia" href="#"></i>Facebook</a></li>
+                        <li><a class="socialmedia" href="#"> </i>Google Plus</a></li>
+                        <li><a class="socialmedia" href="#"> </i>Twitter</a></li>
+                        <li><a class="socialmedia"  href="#"> </i>Linked In</a></li>
+                    </ul>
+                </div>
+
+                <br>
+                <br>
+                <div>Sunyani</div>
+                <div>
+                <div>0543309781</div>
+            </div>
+            <br>
+    &COPY;Maxwell 2020
+    </div>
+    <!-- footer start -->
 </body>
-</html>
+<script src="js/project.js"></script>
+</html> 
